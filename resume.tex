@@ -1,0 +1,48 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+% File:         resume.tex
+% Editor:       https://github.com/kritikmodi
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Kritik Modi}
+\def\city{Bangalore, India}
+\def\email{kritikmodi@gmail.com}
+\def\LinkedIn{kritik-modi-2b5415162}
+\def\github{kritikmodi}
+\def\role{Software Developer
+
+\input{_header}
+\begin{document}
+\input{sections/objective}
+
+\section{Education}
+\input{sections/education}
+
+\section{Skills}
+\input{sections/skills}
+
+\section{Experience}
+\input{sections/experience}
+
+\newpage
+\pagestyle{empty}
+\setlength{\voffset}{-0.75in}
+\setlength{\headsep}{5pt}
+
+\section{Projects}
+\input{sections/projects}
+
+\section{Activities}
+\input{sections/activities}
+
+\section{Extracurricular}
+\input{sections/extracurricular}
+
+\end{document}
